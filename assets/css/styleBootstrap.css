@@ -1,0 +1,16 @@
+:root {
+  --yellow-color: #ddff07;
+}
+
+.navbar {
+  background-color: rgb(32, 32, 32) !important;
+}
+
+.navbar a {
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar a.active {
+  color: var(--yellow-color) !important;
+}
